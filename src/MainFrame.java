@@ -12,5 +12,6 @@ public class MainFrame extends JFrame{
     private void initComp(){
         this.setBounds(200,200,200,200);
         cp.setLayout(new BorderLayout(5,5));
+        cp.add(jtf,BorderLayout.NORTH);
     }
 }
