@@ -1,8 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        LoginFrame loginFrame = new LoginFrame();
-        loginFrame.setVisible(true);
+
+//        LoginFrame loginFrame = new LoginFrame();
+//        loginFrame.setVisible(true);
+        MainFrame mainframe = new MainFrame();
+        mainframe.setVisible(true);
     }
 }
